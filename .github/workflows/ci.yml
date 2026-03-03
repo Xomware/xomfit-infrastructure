@@ -12,3 +12,4 @@ jobs:
       - uses: hashicorp/setup-terraform@v3
       - run: terraform fmt -check -recursive
       - run: echo "CI passed"
+
